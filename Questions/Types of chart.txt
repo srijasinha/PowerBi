@@ -1,0 +1,31 @@
+Types of chart                    
+                             
+1)Area Charts- It is also called a layered area chart. It is based on a line chart. The area between the axis and the line is filled with colors to show volume.
+
+2)Line Charts- A line chart supports monitoring behavior in a set of data. These charts are useful for more than tracking change over time.
+
+3)Stack Bar Charts- Stack bar charts are used to compare multiple dimensions against a single measure. The Y-axis represents categorical data and the X-axis represents Value.  
+
+4)Stack Column Charts- Column charts are used to compare multiple dimensions against a single measure. The x-axis represents categorical data and the Y-axis represents Value.
+
+5)Waterfall Charts- A waterfall chart is used to show how initial values are increasing and decreasing over some time. It shows comparison and shows adds or subtracts value.
+
+6)Funnel Charts- The funnel chart is a type of chart that is used to visualize the data that flows from one phase to another phase. EX - order>Warehouse>Dispached>Delivered.At least we have 4 stage.
+
+7)Gauge Charts- A gauge chart is also known as a speedometer or dial chart. It uses the needle to read the data, and it shows the information on a dial. 
+
+8)Pie charts- A pie chart is a circular graph divided into sectors that shows individual data information, and easy to read format.
+
+9)Donut charts- A Donut chart is a circular graph divided into sectors that shows individual data information, in an easy-to-read format. The only difference is it has a blank in the center to label. We can use it when we have at least one information arrangement you need to plot.
+
+10)Ribbon Chart - This chart is used to show which categorical data has the highest rank.
+
+11)Map - Map is used to visualize geological data.It is used to answer the questions like distance between two locations.
+
+12)Table - It has 2 -D rows amd colums data to represent.There is no aggregation of data, duplicate values are displayed.
+
+13)Matrix - It has multidimenional data to represent.Matrix can do aggregation,and provide drill down funtionality.
+
+14)Slicers - They are canvas visual filters.It operates on canvas.
+
+15)Filters - Filters are configured on visuals before they presented to end users.It is hidden and static feature.
