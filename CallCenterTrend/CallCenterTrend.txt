@@ -1,0 +1,80 @@
+Call Center Trend Dashboard-
+
+Objective:In this project Create a dashboard in Power BI for the call center manager that reflects all relevant Key Performance Indicators (KPIs) and metrics in the dataset.
+
+Possible KPIs include:
+
+1)Overall customer satisfaction
+2)Overall calls answered/abandoned
+3)Calls by time
+4)Average speed of answer
+5)Agent’s performance quadrant -> average handle time (talk duration) vs calls answered
+
+Data Cleaning:
+
+Call Centre Trends dataset is give table named:
+Call Center Trends dataset which has 10 columns and 5000 rows of observation
+Data Cleaning for the dataset was done in the power query editor as follows:
+
+1)Removed Unnecessary columns
+2)Removed Unnecessary rows
+3)Each of the columns in the table were validated to have the correct data type
+
+Data Modeling:
+
+And then dataset was cleaned and transformed, it was ready to the data modeled.
+
+Data Analysis (DAX): and Functional Requirement:
+
+1)Total Calls = SUMX(CallCenterData,CallCenterData[AnsweredCalls] + CallCenterData[UnAnsweredCalls])
+
+2)Total call Answerd = SUM(CallCenterData[AnsweredCalls])
+
+3)Total call UnAnswerd = SUM(CallCenterData[UnAnsweredCalls])
+
+4)Avg speed of answerd calls = AVERAGE(CallCenterData[Speed of answer in seconds])
+
+5)Possitive satisfaction Rateing = CALCULATE(COUNT('CallCenterData'[Satisfaction rating]),FILTER('CallCenterData','CallCenterData'[Satisfaction rating] IN {4,5}))
+
+6)Customer satisfaction rateing = DIVIDE([Possitive satisfaction Rateing],COUNT(CallCenterData[Satisfaction rating]),0)
+
+Dashboard Design: Page1 (call center Trend)
+
+1)Add card to show - a)Total calls 
+                     b)Total AnsweredCalls
+					 c)Total UnAnsweredCalls
+					 d)Average speed od answered calls
+					 e)Overall customer Satisfaction
+				
+2) Add slicer - a)By Month
+                b)Topic
+				c)Agent
+				
+3) Stack column chart- Total calls by satisfaction Rateing
+
+4)Donut chart- Total calls by topic of all the day
+
+5)Line chart - Speed of answers in seconds by Agent
+
+Dashboard Design: Page2 (Agent Performance)
+
+1)1)Add card to show - a)Call Answered
+                     b)Total UnAnsweredCalls
+					 c)Recieved calls
+					 d)Resolved calls
+				     e)Average speed od answered calls
+					 
+2) Add slicer - a)By Month
+                b)Topic
+				c)Agent
+				
+3) Line chart- Total calls by Day
+
+4)Stack column chart- Speed of answers in seconds by Agent
+
+5)Stacked bar chart- Average of Speed of answered calls by Agent
+
+
+
+			 
+
