@@ -1,0 +1,37 @@
+Employee-Performance-Analysis
+Created Interactive Dashboard &amp; Analyzed core underlying causes of poor employee performance
+
+Objective: Mr Brain, CEO of the **INX Future Inc data analytics and automation solutions** provider wants us to create an interactive dashboard to analyse the employee performance indexes and track the core underlying causes of their performance issues (clear indicators of non-performing employees).
+
+Tecnical Requirements: - 
+
+1)Calculate count of Employees using (Employee number)columns
+Hint: Create a DAX and use count function
+
+2)Calculate Sum of Artiton
+Hint: Add a new conditional coluumn Artition_Number if value is yes then output is 1 and if value is No then output is 0.
+
+3)Calculate Arttion Rate
+Hint : 1)Total EmployeeNumber= Calculate countrows of EmployeeNumber
+       2)Total Artition_Number= Calculate sum of Artition_Number
+	   3)Arttion Rate = Total Employees/Total Artition_Number
+
+4)To find Average Age,Experience years at this company
+5)Add a slicer for EmpDepartment
+6)Use Slicer for Arttion by Gender
+Hint: Write DAX 1)Arttiton FemaleGender
+                2)Arttiton MaleGender
+				3) Group these two Card in Slicer by Gender
+7)Arttion% By Education - Use Donut Chart
+8)Arttion_Number Count By EmployeeJobRole at this company- Use stack Bar Chart
+9)Arttion_Number Count By Emp Experience years at this company- Use Line Bar Chart
+10)Arttion_Number Count By Age- Use stack Bar Chart 
+Hint: For Age use group examples- (18-25),26-35),(36-45),46-55),(56+)
+11) Job Role by Job Label of Employee by value count of Emp - Use Matrix
+Hint: 1) In Rows Add jobLevel (create a table name MatrixJobLevel find Distict from JobLevel)
+      2)In column add JobRole from Emp Table
+	  3)Add measure count of employeeNumber
+	  4)Create a model relationship between actual table and matrix table of column (EmpJOBLevel)
+	NOTE: To avoid row value null in matrix and replace with 0 we have added STEP1
+
+	
