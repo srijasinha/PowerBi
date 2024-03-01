@@ -1,0 +1,48 @@
+Technical Requirement: (Measure Tbale)
+Objective: The objective of this project is to design and develop a dynamic and interactive Office Attendence Dashboard using Power BI. The dashboard will visualize critical KPIs related to our HR anylysis, helping us understand our employees performance over time and make data-driven decisions.
+
+
+Problem Statement 1: KPI’s (Key Performance Indicator) Requirement 
+
+The dashboard should provide real-time insights into key performance indicators (KPIs) related to our employee data. This will enable us to make informed decisions, monitor our progress, and identify trends and opportunities for growth.
+
+cleaning Data - 
+
+1)Combine all sheet in one table use - function
+2)Put all date column in one column 
+
+
+
+1)Total working days (add a new measure)
+2)To find percentage(%) who is working from WFH and who took Half work from home(HWOH)
+Hint - a) Add new column names as (WFH Count) and write sql query
+       b)contion - if WFH the value is 1 ,if HWFH the value is 0.5 ,else the value is 0
+       c)Add a new measure(WFH count days) to find count of WFH days(do sum of column WFH Count) above steps
+	   d)WFH % = DIVIDE([WFH count days],[Present Days],0)
+	   
+3)To find present days - Add new measure + add total count of WFH measure
+4) To find Presence %
+5)Add a new filter by date - Extract Month
+To extract month aadd a new column month and write measure to struct with start date
+
+6)To find percentage(%) who is working from SL and who took Half work from home(HSL) 
+Hint - a) Add new column names as (SL Count) and write sql query
+       b)contion - if SL the value is 1 ,if HSL the value is 0.5 ,else the value is 0
+	   c)Add a new measure(SL count days) to find count of SL days (do sum of column SL Count) above steps
+       d)SL % = DIVIDE([SL count days],[total working Days],0)
+
+Make Charts:
+
+1) Create Table which shows Name,Present%,Sl%,WFH%
+2)Create Matrix - values field put value column, Row field put Name,Column field put Date
+3)Create stacked column chart - Prence %  on Y axis and year on X - axis 
+4) Create stacked column chart - WFH% on Y axis and year on X - axis 
+5) Create stacked column chart - SL% on Y axis and year on X - axis 
+6) Create table - Day of week and by Presence %
+8)Create table - Day of week and by SL %
+9)Create a tool tip of Data. - seperate Page
+
+Design Dashboard:
+
+1)Add navigator page to go to other page
+2)Add Background to canvas
