@@ -1,0 +1,13 @@
+Month,StandardCost,RetailPrice,ProductId,SubCategoryKey,Colour,ProductName
+Jan,0.3,211500,1,1,Red,Pen
+Feb,0.7,183800,2,4,Pink,Pen
+Mar,0.3,225200,3,5,Blue,PenHolder
+Apr,0.3,223200,4,3,Pink,Dress
+May,0.33,210100,5,6,Yellow,Paint
+Jun,12,201900,6,7,Pink,Dress
+Jul,123,296000,7,4,Orange,Apple
+Aug,25565,361900,8,4,White,Paper
+Sep,23785,234500,9,11,Purple,Soap
+Oct,27055,267200,10,12,Blue,Table
+Nov,29925,413300,11,2,Red,Chair
+Dec,30405,300700,12,6,Yellow,Table

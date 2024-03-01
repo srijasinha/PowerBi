@@ -1,0 +1,37 @@
+Objective: The objective of this project is to design and develop a dynamic and interactive SalesReport Dashboard using Power BI. The dashboard will visualize critical KPIs related to our car sales, helping us understand our sales performance over time and make data-driven decisions.
+
+Problem Statement 1: KPI’s (Key Performance Indicator) Requirement 
+
+The dashboard should provide real-time insights into key performance indicators (KPIs) related to our sales data. This will enable us to make informed decisions, monitor our progress, and identify trends and opportunities for growth.
+
+Table:
+
+1) create a calender table having column year,MonthName,MonthNumber,Quater,WeekdayNumber,weekdayName
+
+Functional Requirement:
+
+1)Calculate the total revenue in sales table, using the product REetail Price and multipliying it by Units
+ use Related funtion - data present in two table
+
+2)Calculate the total cost in sales table, using the product Standard Cost and multipliying it by Units
+
+3)Gross Profit = Total Revenue - Total cost
+
+Report-
+
+1)Add filter by country
+2)Add filter by monthOrder - asending order 
+create a new column - Month Order MonthName and MonthNumber and sort it by MonthNo
+3)Add card with Total Revenue,Units,Gross Profit from sales Tables
+4)Add Pie chart - Count of Total Revenue of sales by Sub - Category
+5)Add multi cAard - Show Top 5 Sales person name(by Sales_Rep table)based on gross propit(sales table)
+6)Gauge chart - Cpunt of total Reveneue and First Product name
+7)Waterfall chart - Breakdown Anylysis by Product - count of year,count of total Revenue by product Name
+8)Stacked column chart - Count of year, Total Revenue by ProductName.
+9)QuaterOnQuater Growth% - Standard deviation of Total Revenue and QuaterOnQuater Growth% by    Quater (use line chart)
+ HINT:
+ Write DAX to calculte total growth %
+ 1)Tot Rev
+ 2)Prev Quater
+ 3)QuaterOnQuater Growth%
+10)Table chart - Total Revenue(sales table),Date(CalenderTable)
