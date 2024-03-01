@@ -1,0 +1,60 @@
+Objective: The objective of this project is to design and develop a dynamic and interactive Hr Dashboard using Power BI. The dashboard will visualize critical KPIs related to our HR anylysis, helping us understand our employees performance over time and make data-driven decisions.
+
+
+Problem Statement 1: KPI’s (Key Performance Indicator) Requirement 
+
+The dashboard should provide real-time insights into key performance indicators (KPIs) related to our employee data. This will enable us to make informed decisions, monitor our progress, and identify trends and opportunities for growth.
+
+STEP -1 :cleaning Data - 
+
+1)Add new Moth column in actual.csv file - with help of Date column
+2)Check Data type
+3)Crease Reference od target.csv named as (DMonth,DsalesPersson)
+
+
+STEP -2  Modeling Data:
+
+1)Create one to many relationship between salesPerson,Month,column in each table
+
+STEP -3 - Technical Requirement:
+
+1)Actual Performanceby -  Profit,Total sales by Team
+Hint - a) Write DAX - Total sales sum on actual.csv data set
+       b) Write Dax - Total Expences sum on actual.csv data set
+	   c)Write DAX to find Profit
+	   
+Charts - 1)Create a column chart using Team and Total sales and Profit ,(add slicer of product)
+
+
+2)Variance Anylysis by People
+Hint - a) Write DAX - Total target sum on target.csv data set
+       b) Write DAX - Find Variance on target.csv data set
+	  
+Charts - 1)Create a column chart using variance by Person
+
+3)Calculate variance &
+Charts - 1)Create a Table chart using variance% by SalesPerson,variance,TotalSales
+
+4)Who has most variance in each month?
+Charts - 1)Create a Table chart using variance% by SalesPerson,variance,Month
+
+
+5)Which product has highest profit box?
+Charts - 1)Create a Table chart using Product,profit per box,TotalBoxes
+
+6)Forecast Sales for next 3 month?
+Charts - 1)Create a Line chart using Month,TotalSales
+Hint - Add Forecast option
+
+
+
+
+
+
+
+	   
+
+
+
+
+
