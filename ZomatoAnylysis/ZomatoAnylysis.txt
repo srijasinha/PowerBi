@@ -1,0 +1,31 @@
+Zomato Anylysis
+
+Objective: In this project, we investigate a dataset that carries approximate facts about restaurant chains all over the world. The project's main aim is to perform descriptive and statistical analysis based on a few goals designed.
+
+Dataset: The dataset provides information like an average cost for two, location, votes, the aggregate rating, cuisines, country, rating text, etc. Various analysis like the top cuisines, most expensive restaurants, average rating for each country, and many other analysis are performed on the dataset.
+
+Data Cleaning and Modeling:
+
+1)Load the Raw Data.
+2)Data cleaning is performed on Python libraries Numpy, and pandas.
+3)Made sure data is Dropping unnecessary columns, Dropping duplicate rows, and Cleaning individual rows.
+4)Cleaned the data, and it is ready for developing the Interactive Dashboard.
+
+Functional Requirement:
+
+1)Add card qand find - 1) Total Restaurent
+                       2)Total City
+					   3)Total Cuisines
+					   4)Average of cost for two person
+					   5)Total Country
+					 
+					   
+2)Add slicer to find - 1)Has Online Delivery
+                       2)Has DeliveryNow
+
+3)Donut Chart - 1)Restaurent by city	
+                  2)Restaurent by country
+
+4)Stack Column chart - Restaurent by Locality
+				  
+5)Lie Cahart - Cusines and Aggregaet Rating by line Chart
