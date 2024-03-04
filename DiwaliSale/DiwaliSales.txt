@@ -1,0 +1,21 @@
+Diwali sales:(Use Python Jupyter notebook)
+
+Objective: 1)Improve customer Experiance by sales data
+            2)Increase Revenue
+
+Data Cleaning and Modeling:
+
+1)Load the Raw Data.
+2)Data cleaning is performed on Python libraries Numpy, and pandas.
+3)Made sure data is Dropping unnecessary columns, Dropping duplicate rows, and Cleaning individual rows.
+4)Cleaned the data, and it is ready for developing the Interactive Dashboard.
+
+Functional Requirement:
+
+1)plotting a bar chart for Gender and it's count
+
+2)plotting a bar chart for gender vs total amount
+
+3)plotting a bar chart for Gender and its Age and count
+
+4)Total Amount vs Age Group
