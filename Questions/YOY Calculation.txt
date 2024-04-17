@@ -45,18 +45,3 @@ SPLY QTD = CALCULATE([Current QTD],SAMEPERIODLASTYEAR(balances[Dates]))
 SPLY YTD = CALCULATE([Current YTD],SAMEPERIODLASTYEAR(balances[Dates]))
 
 
-5)What is Query Folding?
-Ans -In power query in applied steps where we perform transformation on data (like, rename, delete) convert an M language(mashup language) to a native data source language(SQL).
-
-6)What is DAX?
-Ans - Data Analysis Expression is a library of functions and operators used to perform calculations on data or measures. 
-
-7)What are the 3 modes of data connection?
-Ans - 1)Import method
-      2)Live Query
-      3)Direct Query
-8)How to handle text scenarios in Power BI?
-Ans - In the order table we have order ID - CA-2020-234222 - Canada(Ca) is the country code,2020 is the year,234222 is the ID 
-      Solution - Separate this by using the first two characters or by Deliminator, Range (Use Extract option at Top)
-
-9)When and which visuals are used?

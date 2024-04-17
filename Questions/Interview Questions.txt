@@ -1,0 +1,78 @@
+1)What is Query Folding?
+Ans -In power query in applied steps where we perform transformation on data (like, rename, delete) convert an M language(mashup language) to a native data source language(SQL).
+
+2)What is DAX?
+Ans - Data Analysis Expression is a library of functions and operators used to perform calculations on data or measures. 
+
+3)What are the 2 modes of data connection?
+Ans - 1)Import method -1) We create a copy of data in Power Bi in import mode ,and whwn data size is less than 1 GB.
+                       2) We can create a multiple relationship in model
+
+      2)Direct Query - 1) It used with real time data , when data is too big More than 1 GB., to connect to server.
+                       2)we can create a limeted no of relationship as compared to Import method.
+                       3)We can see only Model view and report view. (Table view is not present)
+                     
+
+4)How to handle text scenarios in Power BI?
+Ans - In the order table we have order ID - CA-2020-234222 - Canada(Ca) is the country code,2020 is the year,234222 is the ID 
+      Solution - Separate this by using the first two characters or by Deliminator, Range (Use Extract option at Top)
+
+5)What are the conditions for appending two queries?
+Ans - 1) Data type should be the same
+      2) Column Row no should be the same.(if row no is not same it will take null values)
+
+6)What are a Fact Table and a Dimension Table?
+Ans - Fact Table - Fact table are the center of Data in the table. It contains a Foreign key.
+      Dimension Table - The fact table attribute is called Dimension Table. It contains the Primary Key.
+
+      Ex-  Order Table (Fct Table)
+           Dimension Table - (attribute) - Product,Region, Customer, Sales Table
+
+7)What is snowflake schema and starshema?
+Ans - Star schema - It contains a Fact and Dimension Table.
+	Fact Table - Fact table are the center of Data in the table. It contains a Foreign key.
+        Dimension Table - The fact table attribute is called Dimension Table. It contains the Primary Key.
+        There is single relationship between Fact to Dimension Table(Fact table is connected to Dimension Table)
+
+      Ex-  Order Table (Fct Table)
+           Dimension Table - (attribute) - Product,Region, Customer, Sales Table
+
+Snowflake Schema - The Dimension Table get splitted into 2 tables or more than 2 tables is called snowflake schema.
+There is Dimension To Dimension Relationship.
+-  Order Table (Fct Table)
+           Dimension Table - (attribute) - 1)Product - ProductCategory
+                                           2)Customer - CityTable,
+8) Seperat 300Rs. I want only 300
+Ans - There is a option - to split column BY Number, Deliminator
+
+9)Limitations of using Direct Query Mode?
+Ans -Query limit: A single query can't return more than 1 million rows. If the query returns more, Power BI will throw an error.
+Data changes: You must refresh to see the latest data.
+Consistency between visuals: Different visuals might be refreshed at different times.
+Schema changes: You must refresh in Power BI Desktop to reflect schema changes.
+Table use: You can only use tables from a single database.
+Data editing: You can't edit your data by query editor.
+Time intelligence: You can't use time intelligence capabilities.
+Date time limitations: DirectQuery only supports seconds, not milliseconds.
+Offline access restrictions: There are offline access restrictions.
+Reporting limitations: Using filters, totals, multi-select slicers, and median can lead to degraded report performance.
+Calculation limitations: DirectQuery mode has restrictions on calculations and data transformations.
+Data source limitations: DirectQuery mode depends on the compatibility and performance of the data source.
+Performance impact: DirectQuery's real-time data access can impact performance.
+Local caching: DirectQuery mode has limited capabilities for local caching of data. 
+
+10)How we can convert snowflake schema to star schema?
+Ans - To convert a snowflake schema to a star schema, you can merge sub-dimension tables into the main dimension tables, then update the main dimension tables and add columns with data from the sub-dimension tables.
+
+11) Write a DAX CODE TO find how much females contributed in Total sales in Maharashtra, Gujrat, Punjab?
+Ans - Total Sales = CALCULATE(SUM(Sales[Amount]), FILTER(Sales, Sales[Gender] = "F" && Sales[State] IN {"Gujarat", "Karnataka", "Punjab"}))
+
+12)How you can refresh Data in power Bi online services?
+Ans - By Data gateway intallation- 
+     1)There is option of refress in Datasets Tab.
+     2)Go to settings and check Data source credentials
+     3)Then finally refress data
+  
+To schedule refress on based on daily basis - use option schedule refress on daily basis and add time.
+
+ 
