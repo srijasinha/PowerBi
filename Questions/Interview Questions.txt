@@ -84,11 +84,8 @@ Ans- Sumerize,Agregate funtion,SUMX
 15)4 user roles in power bi online service?
 Ans - Admin, Viwer,Contributer or Member
 
-15)Steps to publish app in power bi online service?
+16)Steps to publish app in power bi online service?
 Ans-1)Create the app
 2)Add content to the app
 3)Create and manage multiple audiences
-4)Publish the app 
-
-
- 
+4)Publish the app  
