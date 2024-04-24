@@ -5,7 +5,7 @@ Ans -In power query in applied steps where we perform transformation on data (li
 Ans - Data Analysis Expression is a library of functions and operators used to perform calculations on data or measures. 
 
 3)What are the 2 modes of data connection?
-Ans - 1)Import method -1) We create a copy of data in Power Bi in import mode ,and whwn data size is less than 1 GB.
+Ans - 1)Import method -1) We create a copy of data in Power Bi in import mode ,and when data size is less than 1 GB.
                        2) We can create a multiple relationship in model
 
       2)Direct Query - 1) It used with real time data , when data is too big More than 1 GB., to connect to server.
@@ -74,5 +74,21 @@ Ans - By Data gateway intallation-
      3)Then finally refress data
   
 To schedule refress on based on daily basis - use option schedule refress on daily basis and add time.
+
+13) What is sumerize function?
+Ans- SUMMARIZE will summarize the huge number of data rows into one table with a provided criteria column. 
+
+14) how we can apply group by DAX?
+Ans- Sumerize,Agregate funtion,SUMX
+
+15)4 user roles in power bi online service?
+Ans - Admin, Viwer,Contributer or Member
+
+15)Steps to publish app in power bi online service?
+Ans-1)Create the app
+2)Add content to the app
+3)Create and manage multiple audiences
+4)Publish the app 
+
 
  
