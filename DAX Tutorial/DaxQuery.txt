@@ -1,0 +1,58 @@
+1)Calculated function - It works as a row context.
+2)Sum function - It works as a column context
+3)Filter - To filter a particular column of data one filter is present in the calculate function then it will override another filter.
+4)All functions - Removes all filters everywhere. ALL() can only be used to clear filters but not to return a table.
+
+5)Lookup function - If there is a relationship between the table that contains the result column and tables that contain the search columns, in most cases, using the 
+RELATED function instead of LOOKUPVALUE is more efficient and provides better performance.
+
+6)PathFunction- 1)Path function -It shows hierarchy - the first column should be unique data rows, 2nd column can contain duplicates.
+		2)Path length -Shows cout of items in Path.Ex- Anu|Somya - 2
+		3)Path Item - Returns a specific item, based on the index number.Ex -  Anu|Somya|Ram,2
+		4)PathItemReverse = It counts the item from the back.
+		5)Path Contains - It checks whether the item is present or not and gives results in true or false.
+
+7)Logical Function - 1)If condition - Checks whether the condition is true or not
+                     2)And condition - If both conditions are true then evaluates
+                     3)If_And condition
+                     4)OR function
+		     5)Not Function
+                     6)Switch function
+ 		     7)COALESCE Function
+                     8)If Error
+                     9)In Function
+
+8)Date Function - 1)Edate - Returns the previous or future date
+                   2)YEARFRAC - calculate the age based on DOB
+                   3)Emonth -Returns the date in datetime format of the last day of the month, before or after a specified number of months
+                   4)DateDiff - Return the difference between two dates.
+                   5)Year - To fetch year from date
+                   6)Month - To fetch month from date
+                   7)Day - To fetch the day from the date
+                   8)Edate -Returns the date that is the indicated number of months before or after the start date
+                   9)Utc_Today - UTCTODAY returns the time value 12:00:00 PM for all dates.
+                   10)UtcNow -The result of the UTCNOW function changes only when the formula is refreshed. It is not continuously updated.
+                   11)WeekDay -Returns a number from 1 to 7 identifying the day of the week of a date. By default, the day ranges from 1 (Sunday) to 7 (Saturday).
+                   12)WeekNum - Returns the week number for the given date according to the return_type value. The week number indicates where the week falls numerically within a year.
+                   13)Quater -Returns the quarter as a number from 1 (January – March) to 4 (October – December).
+
+
+
+9)Sum Function - It is an Aggregate function, and works in a column context.
+
+10)SumX Function - It is an Iterator function, and works in a row context.
+
+11)Split Function - 1)Find function
+                    2)Left Function
+                    3)Right Function
+                    4)LEN Function
+                    5)Split Function - It uses FIND and Left function
+
+
+12)Count Function - 1)Count Function - it doesn't count blank cell 
+		    2)CountA- it counts blank cell
+                    3)CountBlank
+                    4)CountRows
+                    5)Distinct Count
+                    6)CountX - it is an iterator, it doesnot works on a boolean value, ignores blank value, works in a row context
+                    7)CountAX - it is an iterator, it works on a boolean value, ignores blank value, and works in a row context                 
