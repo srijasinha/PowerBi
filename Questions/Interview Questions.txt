@@ -90,5 +90,5 @@ Ans-1)Create the app
 3)Create and manage multiple audiences
 4)Publish the app  
 
-17)What is stored procedure in Mysql
+17)What is stored procedure in Mysql?
 Ans- When there is complex queries , to resuse again and again we write stored procedure, then we call that stored procedure in Mysql as a function.
