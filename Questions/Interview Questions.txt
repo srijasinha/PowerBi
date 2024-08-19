@@ -92,3 +92,6 @@ Ans-1)Create the app
 
 17)What is stored procedure in Mysql?
 Ans- When there is complex queries , to resuse again and again we write stored procedure, then we call that stored procedure in Mysql as a function.
+
+18)What is Row level security(RLS)
+Ans- Row-level security (RLS) in Power BI is a data governance feature that limits the data that users can see in a Power BI report or dataset. RLS uses filters to restrict data access at the row level, and users can be assigned roles that define those filters. For example, a manager might see data from all countries where their company sells products, but an employee might only be able to see data for Germany.
