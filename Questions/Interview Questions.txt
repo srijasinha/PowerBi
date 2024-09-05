@@ -95,3 +95,13 @@ Ans- When there is complex queries , to resuse again and again we write stored p
 
 18)What is Row level security(RLS)
 Ans- Row-level security (RLS) in Power BI is a data governance feature that limits the data that users can see in a Power BI report or dataset. RLS uses filters to restrict data access at the row level, and users can be assigned roles that define those filters. For example, a manager might see data from all countries where their company sells products, but an employee might only be able to see data for Germany.
+SQL Questions:
+1) what is diffrence between Rank and Dense Rank?
+2)How does partition works?
+3)To show rank of top 3 student?
+
+Azure Quetions:
+1)what  is blob storage and Azure Data Lake(Gen2)
+2)Archtecture of Azure?
+3)Layers of Azure?Explain
+4)Explain Maven Model?
