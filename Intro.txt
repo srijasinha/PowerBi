@@ -1,0 +1,29 @@
+Hi ,
+My name is Srija Sinha, and I have completed my B.Tech in computer science.
+ I have 3.8 years of total experience in the IT sector. I have worked on multiple technologies, including Python(Django Framework) and Tibco, and I am currently working on PowerBi(with ADF -Azure Data Factory Integration).
+ My current job role is as an PowerBi analyst, and I was part of the corporate reporting team.
+I have worked on multiple environments: UAT, SIT, and Prod.
+
+1)In PowerBI Project, I have worked on transformation in PowerQuery(date, text,number ,Change Data type,condions,transformation) 
+Data is coming  from different sources, SQL, Databriks.We're bringing data in PowerBi through Direct Mode.
+Implemented new health plan based on logic, data is coming from multiple sources, and reflected on the dashboard.
+
+2)I have worked on the SSIS tool for moving the L0 Table Data to the L1 Table.
+3)I have worked on a Migration project in ADF to move the Data from one blob storage to a different blob storage and ETL operations.
+
+
+Q) Which charts have you used in your project?
+Ans -A waterfall chart shows a running total as values are added or subtracted. 
+Funnel chart to see market strategies.
+Pie chart -visually represents data as a circle divided into slices, where each slice's size corresponds to the value it represents relative to the whole
+
+
+Q)What are Sliecers and Filters?
+Ans -Slicers are dynamic, interactive visuals on the report page that allow users to directly filter data.
+Filters, on the other hand, are hidden options applied at various levels (visual, page, allowing users to filter data directlyeport) and control what data is displayed, often behind the scenes.
+
+Q)What is Bookmark?
+Ans - In Power BI, bookmarks allow you to save and retrieve specific views of a report, capturing filters, slicers, and visuals.
+
+Q)How can you make your report dynamic?
+Ans- By using Buttons and Actions, Bookmarks we can make the report dynamic.
