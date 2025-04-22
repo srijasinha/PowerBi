@@ -30,8 +30,8 @@ Ans - Fact Table - Fact table are the center of Data in the table. It contains a
 
 7)What is snowflake schema and starshema?
 Ans - Star schema - It contains a Fact and Dimension Table.
-	Fact Table - Fact table are the center of Data in the table. It contains a Foreign key.
-        Dimension Table - The fact table attribute is called Dimension Table. It contains the Primary Key.
+	Fact Table - Fact table are the center of Data in the table. It contains a Foreign key. It has complete business information.
+        Dimension Table - The fact table attribute is called Dimension Table. It contains the Primary Key. It has Lookup data.
         There is single relationship between Fact to Dimension Table(Fact table is connected to Dimension Table)
 
       Ex-  Order Table (Fct Table)
