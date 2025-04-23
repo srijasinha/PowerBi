@@ -107,6 +107,9 @@ Adapts to user context, often using DAX functions like USERPRINCIPALNAME() or US
 access based on the logged-in user. 
 --PowerBi>Manage Roles->Create a Role>Give value->Add Filter on Table->Publish report in PowerBi->Select dashboard->Security->Assign mailId-->USERPRINCIPALNAME(it will fetch the email id of user logged in PowerBi)
 
+19)How to apply colours on bar chart in powerBi based on conditions?
+Ans- To conditionally format the color of bars in a bar chart in Power BI, you'll need to use conditional formatting within the "Format" pane of the visual. Select the visual, go to "Format" -> "Visual" -> "Bars" -> "Colors", and then click the "fx" icon to open the conditional formatting options. 
+
 SQL Questions:
 1) what is diffrence between Rank and Dense Rank?
 2)How does partition works?
