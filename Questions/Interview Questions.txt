@@ -9,7 +9,7 @@ Ans - 1)Import method -1) We create a copy of data in Power Bi in import mode ,a
                        2) We can create a multiple relationship in model
 
       2)Direct Query - 1) It used with real time data , when data is too big More than 1 GB., to connect to server.
-                       2)we can create a limeted no of relationship as compared to Import method.
+                       2)we can create a limited no of relationship as compared to Import method.
                        3)We can see only Model view and report view. (Table view is not present)
                      
 
