@@ -23,7 +23,7 @@ Ans -Slicers are dynamic, interactive visuals on the report page that allow user
 Filters, on the other hand, are hidden options applied at various levels (visual, page, allowing users to filter data directlyeport) and control what data is displayed, often behind the scenes.
 
 Q)What is Bookmark?
-Ans - In Power BI, bookmarks allow you to save and retrieve specific views of a report, capturing filters, slicers, and visuals.
+Ans - In Power BI, bookmarks allow you to save the current state of report, and retrieve specific views of a report, capturing filters, slicers, and visuals.
 
 Q)How can you make your report dynamic?
 Ans- By using Buttons and Actions, Bookmarks we can make the report dynamic.
